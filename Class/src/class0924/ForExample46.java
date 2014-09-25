@@ -4,8 +4,7 @@ public class ForExample46 {
 
 	public static void main(String[] args) {
 		int num1, num2;
-		int tab=0;
-		int tot;
+		int tot=0;
 		Scanner key = new Scanner(System.in);
 		
 		System.out.print("num1= ");
@@ -13,13 +12,19 @@ public class ForExample46 {
 		System.out.print("num2= ");
 		num2 = key.nextInt();
 		
-		if (num1 > num2){
-			tab = num1 - num2;
-			}else {
-			tab = num1 + num2;
+		if (num2 < num1) {
+			for(int i = num2 ; i <= num1 ; i++){
+				tot = tot + i;
+			}
+			
+		} else {
+				for(int i = num1 ; i <= num2 ; i ++ ) {
+					tot = tot + i;
+			}
+			
 		}
 		
-		tot = tab + tab;
+
 		System.out.println("Sum= "+tot);
 		
 	}

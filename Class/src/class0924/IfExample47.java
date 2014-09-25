@@ -8,7 +8,7 @@ public class IfExample47 {
 		System.out.print("dan?");
 		dan = key.nextInt();
 		
-		for(int i =1 ; i < 0 ; i++){
+		for(int i =1 ; i < 10 ; i++){
 			System.out.println(dan +" X "+ i + " = " +(dan * i));
 		}
 		System.out.print("done!");
