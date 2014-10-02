@@ -17,10 +17,10 @@ public class Goods {
 	}
 	
 	void prn(){
-		System.out.println("Product : "+goodsName);
-		System.out.println("Price : "+price);
-		System.out.println("Qualtity : "+qnt);
-		System.out.println("Total Price : "+totPrice);	
+		System.out.println("Product : " + goodsName);
+		System.out.println("Price : "+ price + " won");
+		System.out.println("Qualtity : "+ qnt + " ea");
+		System.out.println("Total Price : " + totPrice + " won");	
 	}
 
 }

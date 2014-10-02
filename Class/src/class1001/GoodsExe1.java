@@ -4,7 +4,7 @@ public class GoodsExe1 {
 
 	public static void main(String[] args) {
 		
-		Goods obj = new Goods("product 01",3400,4);
+		Goods obj = new Goods("iPhone 6 Plus",200000,4);
 		
 		obj.proc();
 		obj.prn();
