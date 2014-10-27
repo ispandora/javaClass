@@ -16,7 +16,7 @@ public class Example1 {
 				a = data1.substring(pos1+1, pos2);
 			}
 			if (cnt % 2 == 0){
-				System.out.print("Name\t: ");``
+				System.out.print("Name\t: ");
 				
 			}else {
 				System.out.print("Score\t: ");

@@ -69,7 +69,7 @@ public class LoginExample {
 	}
 
 	private static void prn() {
-			System.out.println("===========================");
+			System.out.println("=======================================");
 		}
 		
 	
