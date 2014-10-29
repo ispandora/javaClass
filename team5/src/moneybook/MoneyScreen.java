@@ -1,0 +1,5 @@
+package moneybook;
+
+class MoneyScreen {
+
+}
